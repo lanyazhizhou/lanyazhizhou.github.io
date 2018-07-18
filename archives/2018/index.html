@@ -14,7 +14,7 @@
   
 
 
-<html class="theme-next mist use-motion" lang="zh-CN">
+<html class="theme-next gemini use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -61,16 +61,14 @@
 <link href="/css/main.css?v=6.3.0" rel="stylesheet" type="text/css" />
 
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/header.jpg?v=6.3.0">
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.3.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/header.jpg?v=6.3.0">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.3.0">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/header.jpg?v=6.3.0">
 
-
-  <link rel="mask-icon" href="/images/logo.svg?v=6.3.0" color="#222">
 
 
 
@@ -84,9 +82,9 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Mist',
+    scheme: 'Gemini',
     version: '6.3.0',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":"ture","scrollpercent":"ture","onmobile":false},
     fancybox: false,
     fastclick: false,
     lazyload: false,
@@ -115,7 +113,7 @@
 <meta property="og:url" content="http://yoursite.com/archives/2018/index.html">
 <meta property="og:site_name" content="蓝亚之舟">
 <meta property="og:description" content="蓝亚之舟的个人博客">
-<meta property="og:locale" content="zh-CN">
+<meta property="og:locale" content="zh-Hans">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="蓝亚之舟">
 <meta name="twitter:description" content="蓝亚之舟的个人博客">
@@ -137,7 +135,7 @@
   };
 </script>
 
-  <title>归档 | 蓝亚之舟</title>
+  <title>Archiv | 蓝亚之舟</title>
   
 
 
@@ -177,7 +175,7 @@
 
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
   
   
@@ -208,7 +206,7 @@
   </div>
 
   <div class="site-nav-toggle">
-    <button aria-label="切换导航栏">
+    <button aria-label="Toggle navigation bar">
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
@@ -228,7 +226,7 @@
           
           <li class="menu-item menu-item-home">
     <a href="/" rel="section">
-      <i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
+      <i class="menu-item-icon fa fa-fw fa-home"></i> <br />Startseite</a>
   </li>
         
         
@@ -236,29 +234,37 @@
           
           <li class="menu-item menu-item-archives menu-item-active">
     <a href="/archives/" rel="section">
-      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />归档</a>
+      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />Archiv</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-categories">
+    <a href="/categories/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-th"></i> <br />Kategorien</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-about">
+    <a href="/about/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-user"></i> <br />Über</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+    <a href="/tags/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />Tags</a>
   </li>
 
       
       
     </ul>
   
-
-  
-    
-
-    
-    
-      
-      
-    
-      
-      
-    
-    
-
-  
-
 
   
 
@@ -281,6 +287,31 @@
       <div class="main-inner">
         <div class="content-wrap">
           
+            
+
+    
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+    
+
+  
+
+
+          
           <div id="content" class="content">
             
 
@@ -298,7 +329,7 @@
         
           
         
-        嗯..! 目前共计 2 篇日志。 继续努力。
+        Öhm..! Insgesamt 2 Artikel. Bleib dran.
       </span>
       
 
@@ -420,6 +451,10 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
+              <img class="site-author-image" itemprop="image"
+                src="/images/header.jpg"
+                alt="周 朔" />
+            
               <p class="site-author-name" itemprop="name">周 朔</p>
               <p class="site-description motion-element" itemprop="description">蓝亚之舟的个人博客</p>
           </div>
@@ -432,7 +467,7 @@
                   <a href="/archives/">
                 
                     <span class="site-state-item-count">2</span>
-                    <span class="site-state-item-name">日志</span>
+                    <span class="site-state-item-name">Artikel</span>
                   </a>
                 </div>
               
@@ -471,6 +506,13 @@
       
 
       
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+          
+            <span id="scrollpercent"><span>0</span>%</span>
+          
+        </div>
+      
 
     </div>
   </aside>
@@ -496,7 +538,7 @@
 
 
 
-  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动 v3.7.1</div>
+  <div class="powered-by">Erstellt mit  <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> v3.7.1</div>
 
 
 
@@ -504,7 +546,20 @@
 
 
 
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://theme-next.org">NexT.Mist</a> v6.3.0</div>
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://theme-next.org">NexT.Gemini</a> v6.3.0</div>
+
+
+<!-- 用卜算子来记录站点访问情况 -->
+<div>
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<span id="busuanzi_container_site_pv" style='display:none'>
+    本站总访问量 <span id="busuanzi_value_site_pv"></span> 次
+    <span class="post-meta-divider">|</span>
+</span>
+<span id="busuanzi_container_site_uv" style='display:none'>
+    有<span id="busuanzi_value_site_uv"></span>人看过我的博客啦
+</span>
+</div>
 
 
 
@@ -522,11 +577,6 @@
       </div>
     </footer>
 
-    
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
     
 
     
@@ -553,6 +603,8 @@
 
 
 
+
+  
 
 
 
@@ -581,6 +633,11 @@
     <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
   
 
+  
+  
+    <script type="text/javascript" src="ture"></script>
+  
+
 
   
 
@@ -593,6 +650,13 @@
 
   
   
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=6.3.0"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=6.3.0"></script>
+
+
 
   
 
@@ -651,5 +715,12 @@
 
   
 
+
+  <!-- 动态背景 -->
+        
+   <script type="text/javascript" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+  
 </body>
 </html>
+<!-- 页面点击小红心 -->
+<script type="text/javascript" src="/js/src/love.js"></script>

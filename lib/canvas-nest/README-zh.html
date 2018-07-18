@@ -1,0 +1,46 @@
+<h1 id="canvas-nest-js"><a href="#canvas-nest-js" class="headerlink" title="canvas-nest.js"></a>canvas-nest.js</h1><blockquote>
+<p>一个基于html5 canvas绘制的网页背景效果，非常赞！如果需要 <code>wordpress插件</code>，在插件库搜索 <code>canvas-nest</code> 或者看看项目 <a href="https://github.com/aTool-org/canvas-nest-for-wp">canvas-nest-for-wp</a>。</p>
+</blockquote>
+<p><img src="https://travis-ci.org/hustcc/canvas-nest.js.svg?branch=master" alt="travis-ci"> <img src="https://img.shields.io/npm/v/canvas-nest.js.svg?style=flat-square" alt="npm"> <img src="https://img.shields.io/npm/l/canvas-nest.js.svg?style=flat-square" alt="npm"></p>
+<h2 id="特性"><a href="#特性" class="headerlink" title="特性"></a>特性</h2><ul>
+<li>不依赖任何框架或者内库，比如不依赖 jQuery，使用原生的 javascript。</li>
+<li>非常小，只有1.6 kb，如果开启 gzip，可以更小。</li>
+<li>非常容易实现，配置简单，即使你不是web开发者，也能简单搞定。</li>
+</ul>
+<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>使用非常简单，感觉都没有必要写这一节内容。</p>
+<p>将下面的代码插入到 <code>&lt;body&gt; 和 &lt;/body&gt; 之间</code>.</p>
+<pre><code class="html"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">src</span>=<span class="string">"//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span>
+</code></pre>
+<p>强烈建议在 <code>&lt;/body&gt;</code>标签上方. 例如下面的代码结构:</p>
+<pre><code class="html"><span class="tag">&lt;<span class="name">html</span>&gt;</span>
+<span class="tag">&lt;<span class="name">head</span>&gt;</span>
+    ...
+<span class="tag">&lt;/<span class="name">head</span>&gt;</span>
+<span class="tag">&lt;<span class="name">body</span>&gt;</span>
+    ...
+    ...
+    ...
+    <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">src</span>=<span class="string">"//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span>
+<span class="tag">&lt;/<span class="name">body</span>&gt;</span>
+<span class="tag">&lt;/<span class="name">html</span>&gt;</span>
+</code></pre>
+<p><code>请注意不要将代码置于 &lt;head&gt; &lt;/head&gt;里面</code>.</p>
+<p>然后就完成了，打开网页即可看到效果!</p>
+<h2 id="配置和配置项"><a href="#配置和配置项" class="headerlink" title="配置和配置项"></a>配置和配置项</h2><ul>
+<li><strong><code>color</code></strong>: 线条颜色, 默认: <code>&#39;0,0,0&#39;</code> ；三个数字分别为(R,G,B)，注意用,分割</li>
+<li><strong><code>opacity</code></strong>: 线条透明度（0~1）, 默认: <code>0.5</code></li>
+<li><strong><code>count</code></strong>: 线条的总数量, 默认: <code>150</code></li>
+<li><strong><code>zIndex</code></strong>: 背景的z-index属性，css属性用于控制所在层的位置, 默认: <code>-1</code></li>
+</ul>
+<p>Example:</p>
+<pre><code>&lt;script type=&quot;text/javascript&quot; color=&quot;0,0,255&quot; opacity=&apos;0.7&apos; zIndex=&quot;-2&quot; count=&quot;99&quot; src=&quot;//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js&quot;&gt;&lt;/script&gt;
+</code></pre><p>这些属性配置在引用js的script标签中，作为它的一个属性值。所有的配置项都有默认值，如果你不知道怎么设置，可以先不设置这些配置项，就使用默认值看看效果也可以的。</p>
+<h2 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h2><ol>
+<li><a href="http://www.atool.org/">在线工具: http://www.atool.org/</a></li>
+<li><a href="https://aibq.cn/">爱表情 aiBQ: https://aibq.cn/</a></li>
+<li><a href="http://jerey.cn/">夏敏的博客: http://jerey.cn/</a></li>
+</ol>
+<p>如果你使用的了本项目，也可以修改此处文件，并 pr，我会接受的。</p>
+<p><img src="https://raw.githubusercontent.com/hustcc/canvas-nest.js/master/screenshot.png" alt="screenshot"></p>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>本项目的Javascript文件已经存储在CDN上，可以直接使用，地址为： <a href="http://www.bootcdn.cn/canvas-nest.js/">http://www.bootcdn.cn/canvas-nest.js/</a>，如果你不需要 CDN 或者有自己的 CDN，可以直接下载源码 dist 目录中的 <code>canvas-nest.min.js</code>，然后相应的修改使用地址即可。</p>
+<p>有任何的bug或者建议，非常鼓励 issue 和 pr，来者不拒。</p>

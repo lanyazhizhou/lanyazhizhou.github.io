@@ -1,0 +1,47 @@
+<h1 id="canvas-nest-js"><a href="#canvas-nest-js" class="headerlink" title="canvas-nest.js"></a>canvas-nest.js</h1><blockquote>
+<p>A nest backgroud of website draw on canvas. <a href="https://github.com/hustcc/canvas-nest.js/blob/master/README-zh.md">中文Readme帮助文档</a>. For <code>wordpress plugin</code>, search <code>canvas-nest</code> or see <a href="https://github.com/aTool-org/canvas-nest-for-wp">canvas-nest-for-wp</a>.</p>
+</blockquote>
+<p><img src="https://travis-ci.org/hustcc/canvas-nest.js.svg?branch=master" alt="travis-ci"> <img src="https://img.shields.io/npm/v/canvas-nest.js.svg?style=flat-square" alt="npm"> <img src="https://img.shields.io/npm/l/canvas-nest.js.svg?style=flat-square" alt="npm"></p>
+<h2 id="feature"><a href="#feature" class="headerlink" title="feature"></a>feature</h2><ul>
+<li>do not depend on jQuery or other javascript framework.</li>
+<li>very light, only 1.6 kb. can be smaller after gzip.</li>
+<li>so easy to use, even you are not a web developer.</li>
+</ul>
+<h2 id="usage"><a href="#usage" class="headerlink" title="usage"></a>usage</h2><p>so eazy that I do not want write the chapter.</p>
+<p>insert the code below <code>between &lt;body&gt; and &lt;/body&gt;</code>.</p>
+<pre><code class="html"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span>
+</code></pre>
+<p>suggest before the tag <code>&lt;/body&gt;</code>. like below:</p>
+<pre><code class="html"><span class="tag">&lt;<span class="name">html</span>&gt;</span>
+<span class="tag">&lt;<span class="name">head</span>&gt;</span>
+    ...
+<span class="tag">&lt;/<span class="name">head</span>&gt;</span>
+<span class="tag">&lt;<span class="name">body</span>&gt;</span>
+    ...
+    ...
+    ...
+    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span>
+<span class="tag">&lt;/<span class="name">body</span>&gt;</span>
+<span class="tag">&lt;/<span class="name">html</span>&gt;</span>
+</code></pre>
+<p><code>please do not add the code in the &lt;head&gt; &lt;/head&gt;</code>.</p>
+<p>then ok!</p>
+<h2 id="config"><a href="#config" class="headerlink" title="config"></a>config</h2><ul>
+<li><strong><code>color</code></strong>: the canvas line color, default: <code>&#39;0,0,0&#39;</code> ; the color is (R,G,B)</li>
+<li><strong><code>opacity</code></strong>: the opacity of line (0~1), default: <code>0.5</code></li>
+<li><strong><code>count</code></strong>: the number of lines, default: <code>150</code></li>
+<li><strong><code>zIndex</code></strong>: the index of z space, default: <code>-1</code></li>
+</ul>
+<p>Example:</p>
+<pre><code class="html"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">color</span>=<span class="string">"0,0,255"</span> <span class="attr">opacity</span>=<span class="string">'0.7'</span> <span class="attr">zIndex</span>=<span class="string">"-2"</span> <span class="attr">count</span>=<span class="string">"99"</span> <span class="attr">src</span>=<span class="string">"//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span>
+</code></pre>
+<p>set the config on the script node <code>as a attribute</code>. all the config has the default value, you can choose to set any of them.</p>
+<h2 id="preview"><a href="#preview" class="headerlink" title="preview"></a>preview</h2><ol>
+<li><a href="http://www.atool.org/">OnlineTool: http://www.atool.org/</a></li>
+<li><a href="https://aibq.cn/">aiBQ: https://aibq.cn/</a></li>
+<li><a href="http://jerey.cn/">Jerey’s Blog: http://jerey.cn/</a></li>
+</ol>
+<p>if you has used this project, pls let me know, I can add your website on.</p>
+<p><img src="https://raw.githubusercontent.com/hustcc/canvas-nest.js/master/screenshot.png" alt="screenshot"></p>
+<h2 id="other"><a href="#other" class="headerlink" title="other"></a>other</h2><p>Project library cdn url: <a href="http://www.bootcdn.cn/canvas-nest.js/">http://www.bootcdn.cn/canvas-nest.js/</a>.</p>
+<p>any bug or question, welcome to push request and issue.</p>
