@@ -47,13 +47,7 @@
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h1 id=&quot;test&quot;&gt;&lt;a href=&quot;#test&quot; class=&quot;headerlink&quot; title=&quot;test&quot;&gt;&lt;/a&gt;test&lt;/h1&gt;&lt;h2 id=&quot;注释&quot;&gt;&lt;a href=&quot;#注释&quot; class=&quot;headerlink&quot;
-        
-      
+      &lt;h1 id=&quot;test&quot;&gt;&lt;a href=&quot;#test&quot; class=&quot;headerlink&quot; title=&quot;test&quot;&gt;&lt;/a&gt;test&lt;/h1&gt;&lt;h2 id=&quot;注释&quot;&gt;&lt;a href=&quot;#注释&quot; class=&quot;headerlink&quot; title=&quot;注释&quot;&gt;&lt;/a&gt;&lt;strong&gt;注释&lt;/strong&gt;&lt;/h2&gt;&lt;h3 id=&quot;第一种方法&quot;&gt;&lt;a href=&quot;#第一种方法&quot; class=&quot;headerlink&quot; title=&quot;第一种方法&quot;&gt;&lt;/a&gt;&lt;strong&gt;第一种方法&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;；第一种注释方法，看看效果（开头加分号）&lt;/p&gt;
     
     </summary>
     
