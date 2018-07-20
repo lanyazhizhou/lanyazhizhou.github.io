@@ -5,11 +5,26 @@
     
   <url>
     <loc>http://yoursite.com/2018/07/17/my-New-Post/</loc>
-    <lastmod>2018-07-20T10:26:19.061Z</lastmod>
+    <lastmod>2018-07-20T11:52:48.873Z</lastmod>
     <data>
         <display>
         <title>my New Post</title>
         <pubTime>2018-07-17T11:07:11.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/07/19/hello-world/</loc>
+    <lastmod>2018-07-20T11:52:05.470Z</lastmod>
+    <data>
+        <display>
+        <title>Hello World</title>
+        <pubTime>2018-07-19T13:50:24.275Z</pubTime>
         
          
            
@@ -40,19 +55,4 @@
     
     
     
-    
-  <url>
-    <loc>http://yoursite.com/2018/07/19/hello-world/</loc>
-    <lastmod>2018-07-17T11:03:23.664Z</lastmod>
-    <data>
-        <display>
-        <title>Hello World</title>
-        <pubTime>2018-07-19T13:50:24.275Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
 </urlset>
