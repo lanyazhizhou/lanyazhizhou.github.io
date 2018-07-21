@@ -34,6 +34,33 @@
   
   <entry>
     <title>个人博客的测试</title>
+    <link href="http://yoursite.com/2018/07/19/my-New-Post/"/>
+    <id>http://yoursite.com/2018/07/19/my-New-Post/</id>
+    <published>2018-07-19T02:50:51.000Z</published>
+    <updated>2018-07-19T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;因为关于hexo搭建GitHub博客的教程太多了，这里就不再一一叙述了，直接列出几个好的教程，大家自己看看吧：&lt;/p&gt;
+&lt;h2 id=&quot;安装git和node&quot;&gt;&lt;a href=&quot;#安装git和node&quot; class=&quot;headerlink&quot; title=&quot;安装git和node&quot;&gt;&lt;/a&gt;安装git和node&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://jingyan.baidu.com/article/d8072ac47aca0fec95cefd2d.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;史上最详细“截图”搭建Hexo博客并部署到Github&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.csdn.net/renfufei/article/details/37725057&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;创建GitHub技术博客全攻略&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.cnblogs.com/zhcncn/p/4097881.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo搭建Github静态博客&lt;/a&gt;  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
+    
+    
+      <category term="hexo，个人博客，网站" scheme="http://yoursite.com/tags/hexo%EF%BC%8C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%8C%E7%BD%91%E7%AB%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>个人博客的测试</title>
     <link href="http://yoursite.com/2018/07/19/test/"/>
     <id>http://yoursite.com/2018/07/19/test/</id>
     <published>2018-07-19T02:50:51.000Z</published>
@@ -49,28 +76,6 @@
     
     
       <category term="test" scheme="http://yoursite.com/tags/test/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>my New Post</title>
-    <link href="http://yoursite.com/2018/07/17/my-New-Post/"/>
-    <id>http://yoursite.com/2018/07/17/my-New-Post/</id>
-    <published>2018-07-17T11:07:11.000Z</published>
-    <updated>2018-07-20T11:55:18.176Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;a
-        
-      
-    
-    </summary>
-    
     
   </entry>
   
