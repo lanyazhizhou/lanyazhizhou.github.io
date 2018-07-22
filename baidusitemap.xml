@@ -9,7 +9,7 @@
     
     
   <url>
-    <loc>http://yoursite.com/2018/07/19/hello-world/</loc>
+    <loc>https://zhoushuo.net/2018/07/19/hello-world/</loc>
     <lastmod>2018-07-20T11:52:05.470Z</lastmod>
     <data>
         <display>
@@ -24,7 +24,7 @@
 
     
   <url>
-    <loc>http://yoursite.com/2018/07/19/my-New-Post/</loc>
+    <loc>https://zhoushuo.net/2018/07/19/my-New-Post/</loc>
     <lastmod>2018-07-19T16:00:00.000Z</lastmod>
     <data>
         <display>
@@ -36,7 +36,7 @@
          
            
              
-              <breadCrumb title="hexo" url="http://yoursite.com/categories/hexo/"/>
+              <breadCrumb title="hexo" url="https://zhoushuo.net/categories/hexo/"/>
           
         </display>
     </data>
@@ -44,7 +44,7 @@
 
     
   <url>
-    <loc>http://yoursite.com/2018/07/19/test/</loc>
+    <loc>https://zhoushuo.net/2018/07/19/test/</loc>
     <lastmod>2018-07-19T16:00:00.000Z</lastmod>
     <data>
         <display>
@@ -56,7 +56,7 @@
          
            
              
-              <breadCrumb title="博客测试" url="http://yoursite.com/categories/%E5%8D%9A%E5%AE%A2%E6%B5%8B%E8%AF%95/"/>
+              <breadCrumb title="博客测试" url="https://zhoushuo.net/categories/%E5%8D%9A%E5%AE%A2%E6%B5%8B%E8%AF%95/"/>
           
         </display>
     </data>
