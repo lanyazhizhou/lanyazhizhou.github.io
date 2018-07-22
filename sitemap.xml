@@ -2,6 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/baidu_verify_5hIvcYp2Y0.html</loc>
+    
+    <lastmod>2018-07-22T02:31:14.751Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/about/index.html</loc>
+    
+    <lastmod>2018-07-22T02:23:06.140Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/categories/index.html</loc>
+    
+    <lastmod>2018-07-22T02:22:52.527Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/tags/index.html</loc>
+    
+    <lastmod>2018-07-22T02:22:35.743Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2018/07/19/hello-world/</loc>
     
     <lastmod>2018-07-20T11:52:05.470Z</lastmod>
@@ -19,27 +47,6 @@
     <loc>http://yoursite.com/2018/07/19/test/</loc>
     
     <lastmod>2018-07-19T16:00:00.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/tags/index.html</loc>
-    
-    <lastmod>2018-07-18T12:55:55.824Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/about/index.html</loc>
-    
-    <lastmod>2018-07-18T12:55:53.673Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/categories/index.html</loc>
-    
-    <lastmod>2018-07-18T12:54:00.129Z</lastmod>
     
   </url>
   
