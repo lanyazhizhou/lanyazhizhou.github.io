@@ -33,6 +33,26 @@
   </entry>
   
   <entry>
+    <title>个人博客的测试</title>
+    <link href="https://zhoushuo.net/2018/07/19/test/"/>
+    <id>https://zhoushuo.net/2018/07/19/test/</id>
+    <published>2018-07-19T02:50:51.000Z</published>
+    <updated>2018-07-19T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;测试格式怎么样&quot;&gt;&lt;a href=&quot;#测试格式怎么样&quot; class=&quot;headerlink&quot; title=&quot;测试格式怎么样&quot;&gt;&lt;/a&gt;测试格式怎么样&lt;/h1&gt;
+    
+    </summary>
+    
+      <category term="博客测试" scheme="https://zhoushuo.net/categories/%E5%8D%9A%E5%AE%A2%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="test" scheme="https://zhoushuo.net/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
     <title>hexo搭建个人博客总结</title>
     <link href="https://zhoushuo.net/2018/07/19/my-New-Post/"/>
     <id>https://zhoushuo.net/2018/07/19/my-New-Post/</id>
@@ -56,26 +76,6 @@
     
     
       <category term="hexo，个人博客，网站" scheme="https://zhoushuo.net/tags/hexo%EF%BC%8C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%8C%E7%BD%91%E7%AB%99/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>个人博客的测试</title>
-    <link href="https://zhoushuo.net/2018/07/19/test/"/>
-    <id>https://zhoushuo.net/2018/07/19/test/</id>
-    <published>2018-07-19T02:50:51.000Z</published>
-    <updated>2018-07-19T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;测试格式怎么样&quot;&gt;&lt;a href=&quot;#测试格式怎么样&quot; class=&quot;headerlink&quot; title=&quot;测试格式怎么样&quot;&gt;&lt;/a&gt;测试格式怎么样&lt;/h1&gt;
-    
-    </summary>
-    
-      <category term="博客测试" scheme="https://zhoushuo.net/categories/%E5%8D%9A%E5%AE%A2%E6%B5%8B%E8%AF%95/"/>
-    
-    
-      <category term="test" scheme="https://zhoushuo.net/tags/test/"/>
     
   </entry>
   

@@ -24,26 +24,6 @@
 
     
   <url>
-    <loc>https://zhoushuo.net/2018/07/19/my-New-Post/</loc>
-    <lastmod>2018-07-19T16:00:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>hexo搭建个人博客总结</title>
-        <pubTime>2018-07-19T02:50:51.000Z</pubTime>
-        
-        <tag>hexo，个人博客，网站</tag>
-         
-         
-           
-             
-              <breadCrumb title="hexo" url="https://zhoushuo.net/categories/hexo/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://zhoushuo.net/2018/07/19/test/</loc>
     <lastmod>2018-07-19T16:00:00.000Z</lastmod>
     <data>
@@ -57,6 +37,26 @@
            
              
               <breadCrumb title="博客测试" url="https://zhoushuo.net/categories/%E5%8D%9A%E5%AE%A2%E6%B5%8B%E8%AF%95/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://zhoushuo.net/2018/07/19/my-New-Post/</loc>
+    <lastmod>2018-07-19T16:00:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>hexo搭建个人博客总结</title>
+        <pubTime>2018-07-19T02:50:51.000Z</pubTime>
+        
+        <tag>hexo，个人博客，网站</tag>
+         
+         
+           
+             
+              <breadCrumb title="hexo" url="https://zhoushuo.net/categories/hexo/"/>
           
         </display>
     </data>
